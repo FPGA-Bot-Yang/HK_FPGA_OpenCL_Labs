@@ -5,6 +5,8 @@ echo $1
 
 export AOCL_BOARD_PACKAGE_ROOT=$INTELFPGAOCLSDKROOT/board/a10_ref
 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/Altera/Quartus/17.1/hld/board/a10_ref/linux64/lib
+
 if [ "$1" = "hw" ]; then
 	echo "Compiling kernels to generate hardware"
 	#aoc  conv_kernel.cl -o bin/conv_kernel.aoco -v -c --report --board de1soc_sharedonly
