@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Point ModelSim Path
-alias vsim17=/opt/Altera/Quartus/17.1/modelsim_ae/linuxaloem/vsim
+alias vsim17=/opt/Altera/Quartus/17.1/modelsim_ase/linuxaloem/vsim
 
 ## OpenCL realated 17.1
 export INTELFPGAOCLSDKROOT=/opt/Altera/Quartus/17.1/hld
