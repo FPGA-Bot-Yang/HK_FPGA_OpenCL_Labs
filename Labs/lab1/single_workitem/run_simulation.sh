@@ -6,7 +6,7 @@ cp device/mmm.cl .
 echo "******************* Compiling Kernels for Simulation ************************"
 aoc -v mmm.cl
 # Launch the simulation
-echo "******************* Run Emulation ************************"
+echo "******************* Run Simulation ************************"
 cd mmm/kernel_system_tb/kernel_system_tb/sim/mentor
 vsim17 &
 
