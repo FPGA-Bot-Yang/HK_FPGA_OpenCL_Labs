@@ -305,3 +305,4 @@ __pycache__/
 # Intel FPGA SDK Generated Bitfile
 *.aoco
 *.aocx
+*.bak
